@@ -1,0 +1,55 @@
+{
+  "siteName": "Kızak Yağı",
+  "siteTitle": "Kızak Yağı Fiyatları & Çeşitleri | Toptan Endüstriyel Yağlar",
+  "metaDescription": "Mobil Vactra, Shell Tonna, Castrol Magna, Petrol Ofisi ve Artoil kızak yağı çeşitleri. ISO VG 68 ve 220 CNC tezgah kızak yağlarında toptan fiyat ve aynı gün sevkiyat.",
+  "domain": "https://kizakyagi.com",
+  "phone": "+90 506 940 1210",
+  "phoneRaw": "+905069401210",
+  "whatsapp": "905069401210",
+  "whatsappMessage": "[kizakyagi.com] MUSTERI ILETISIM HATTI\n\nMerhaba, kizak yaglari hakkinda detayli bilgi ve fiyat teklifi almak istiyorum.",
+  "email": "bilgi@kizakyagi.com",
+  "address": "Arap Camii Mh. Bakır Sk. No:6/A Beyoğlu/İSTANBUL",
+  "primaryColor": "#0284c7",
+  "brands": [
+    {
+      "id": "all",
+      "name": "Tüm Markalar"
+    },
+    {
+      "id": "mobil",
+      "name": "Mobil",
+      "badge": "Vactra Serisi",
+      "color": "#dc2626"
+    },
+    {
+      "id": "shell",
+      "name": "Shell",
+      "badge": "Tonna Serisi",
+      "color": "#eab308"
+    },
+    {
+      "id": "castrol",
+      "name": "Castrol",
+      "badge": "Magna Serisi",
+      "color": "#16a34a"
+    },
+    {
+      "id": "artoil",
+      "name": "Artoil",
+      "badge": "Yerli Kalite",
+      "color": "#0ea5e9"
+    },
+    {
+      "id": "petrol-ofisi",
+      "name": "Petrol Ofisi",
+      "badge": "Yerli Lider",
+      "color": "#dc2626"
+    }
+  ],
+  "viscosities": [
+    "Tümü",
+    "ISO VG 32",
+    "ISO VG 68",
+    "ISO VG 220"
+  ]
+}

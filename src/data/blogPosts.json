@@ -1,0 +1,36 @@
+[
+  {
+    "id": "1",
+    "slug": "kizak-yaginda-stick-slip-nedir-nasil-onlenir",
+    "title": "Takım Tezgahlarında Stick-Slip (Kayma-Yapışma) Nedir? Nasıl Önlenir?",
+    "date": "12 Kasım 2026",
+    "author": "kizakyagi.com",
+    "readTime": "4 dk",
+    "image": "/images/banners/hero-artoil.jpg",
+    "category": "Teknik Bilgi",
+    "excerpt": "CNC ve üniversal tezgahlarda yüzey pürüzlülüğü hatalarına yol açan stick-slip olayının sebepleri ve doğru kızak yağı seçimi.",
+    "content": [
+      "<p class='lead'>Stick-slip, takım tezgahlarının kızak arabalarında düşük ilerleme hızlarında meydana gelen kesik kesik, takılarak ilerleme hareketidir. Bu durum iş parçası yüzeyinde dalgalanmalara, takım kırılmalarına ve mikron bazında ölçü kaçıklıklarına sebep olur.</p>",
+      "<h2>Stick-Slip Neden Oluşur?</h2>",
+      "<p>Statik sürtünme katsayısının dinamik sürtünme katsayısından yüksek olduğu durumlarda tabla anlık olarak yapışır ve ardından aniden fırlar. Kaliteli kızak yağları (Mobil Vactra, Shell Tonna vb.) içerdiği özel sürtünme düzenleyici katıklar ile statik sürtünmeyi dinamik sürtünmenin altına indirerek pürüzsüz hareketi garanti eder.</p>",
+      "<h2>Doğru Viskozite Seçimi: ISO VG 68 mi, ISO VG 220 mi?</h2>",
+      "<p>Genel kural olarak yatay kızaklarda ISO VG 68, dikey kolon kızaklarında ise yağın yerçekimiyle süzülmesini engellemek için ISO VG 220 viskozite sınıfı kızak yağları tercih edilmelidir.</p>"
+    ]
+  },
+  {
+    "id": "2",
+    "slug": "kizak-yagi-ve-bor-yagi-uyumu",
+    "title": "Kızak Yağı ile Bor Yağının (Soğutma Sıvısı) Uyumu Neden Hayatidir?",
+    "date": "13 Kasım 2026",
+    "author": "kizakyagi.com",
+    "readTime": "5 dk",
+    "image": "/images/banners/hero-artoil.jpg",
+    "category": "İpuçları & Bakım",
+    "excerpt": "Kızak yağının bor yağı ile karışıp bozulmasını önlemek, koku ve bakteri oluşumunu engellemek için demülsiyonun önemi.",
+    "content": [
+      "<p class='lead'>CNC tezgahlarında işleme esnasında kızaklardan süzülen kızak yağı doğrudan soğutma sıvısı (bor yağı) tankına akar. Eğer kullanılan kızak yağı bor yağı ile emülsiyon yaparsa, soğutma sıvısı hızla bozulur, kötü koku yapar ve paslanmaya neden olur.</p>",
+      "<h2>Mükemmel Demülsiyon (Ayrışma) Özelliği</h2>",
+      "<p>Üstün kaliteli kızak yağları, bor yağının içine karışmaz; tankın yüzeyinde serbest bir tabaka oluşturarak yağ sıyırıcı diskler (skimmer) tarafından kolaylıkla toplanır. Bu sayede bor yağının ömrü 2-3 katına çıkar.</p>"
+    ]
+  }
+]
