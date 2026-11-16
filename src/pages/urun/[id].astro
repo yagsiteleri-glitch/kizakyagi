@@ -38,7 +38,7 @@ if (relatedProducts.length < 4) {
 ---
 
 <Layout
-  title={`${product.name} Fiyatı & Teknik Özellikleri | ${siteConfig.siteName}`}
+  title={product.name.toLocaleLowerCase('tr-TR').includes('kızak') ? `${product.name} Fiyatı & Teknik Özellikleri | ${siteConfig.siteName}` : `${product.name} - ${siteConfig.siteName} Fiyatı & Özellikleri`}
   description={product.shortDescription || `${product.name} orijinal endüstriyel hidrolik yağı. Teknik özellikleri ve toptan teklif.`}
   ogImage={product.image}
 >
@@ -169,11 +169,11 @@ if (relatedProducts.length < 4) {
   <section class="product-long-desc-section">
     <div class="container">
       <div class="desc-divider"></div>
-      <h2 class="desc-heading">Ürün Açıklaması</h2>
+      <h2 class="desc-heading">{product.name} — Kızak Yağı Özellikleri ve Açıklaması</h2>
       <div class="desc-text-body">
         <div class="desc-html-content" set:html={product.description} />
 
-        <h3>Teknik Veri & Viskozite Değerleri</h3>
+        <h3>{product.name} (Kızak Yağı) Teknik Veri ve Spesifikasyon Tablosu</h3>
         <table class="orig-specs-table">
           <tbody>
             {product.specs.map(s => (
@@ -189,7 +189,7 @@ if (relatedProducts.length < 4) {
       <!-- Related Products -->
       {relatedProducts.length > 0 && (
         <div class="related-block">
-          <h2 class="section-heading">Benzer Ürünler</h2>
+          <h2 class="section-heading">Benzer Kızak Yağları</h2>
           <div class="section-divider-line"></div>
           <div class="related-grid">
             {relatedProducts.map(rp => (
