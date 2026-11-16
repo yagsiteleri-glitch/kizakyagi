@@ -1,10 +1,11 @@
 ---
+import siteConfig from '../data/siteConfig.json';
 import Layout from '../layouts/Layout.astro';
 import Breadcrumb from '../components/Breadcrumb.astro';
 ---
 
 <Layout
-  title="Toptan Kızak Yağı Fiyat Teklifi Al | kizakyagi.com"
+  title={`Toptan ${siteConfig.siteName} Fiyat Teklifi Al | ${siteConfig.siteName}`}
   description="Artoil, Castrol, Mobil, Petrol Ofisi ve Shell kızak yağı toptan ve perakende iskonto teklifi alın. İstanbul içi aynı gün, Türkiye geneli ambar teslimatı."
 >
   <Breadcrumb items={[{ label: "Teklif Al" }]} />
