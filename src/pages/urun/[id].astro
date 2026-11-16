@@ -17,11 +17,11 @@ const { product } = Astro.props;
 // MSDS & TDS direct PDF or WhatsApp fallback link
 const msdsHref = (product.msdsUrl && product.msdsUrl !== '#')
   ? product.msdsUrl
-  : `https://wa.me/905069401210?text=${encodeURIComponent(`[hidrolikyag.com] TEKNIK BELGE TALEBI (MSDS)\n\nUrun: ${product.name}\n\nMerhaba, bu urunun guncel MSDS Guvenlik Bilgi Formunu PDF olarak talep ediyorum.`)}`;
+  : `https://wa.me/905069401210?text=${encodeURIComponent(`[kizakyagi.com] TEKNIK BELGE TALEBI (MSDS)\n\nUrun: ${product.name}\n\nMerhaba, bu urunun guncel MSDS Guvenlik Bilgi Formunu PDF olarak talep ediyorum.`)}`;
 
 const tdsHref = (product.tdsUrl && product.tdsUrl !== '#')
   ? product.tdsUrl
-  : `https://wa.me/905069401210?text=${encodeURIComponent(`[hidrolikyag.com] TEKNIK BELGE TALEBI (TDS)\n\nUrun: ${product.name}\n\nMerhaba, bu urunun guncel TDS Teknik Veri Formunu PDF olarak talep ediyorum.`)}`;
+  : `https://wa.me/905069401210?text=${encodeURIComponent(`[kizakyagi.com] TEKNIK BELGE TALEBI (TDS)\n\nUrun: ${product.name}\n\nMerhaba, bu urunun guncel TDS Teknik Veri Formunu PDF olarak talep ediyorum.`)}`;
 
 const hasDirectMsds = product.msdsUrl && product.msdsUrl !== '#';
 const hasDirectTds = product.tdsUrl && product.tdsUrl !== '#';
@@ -123,7 +123,7 @@ if (relatedProducts.length < 4) {
         <!-- CTA Buttons -->
         <div class="cta-buttons-wrap">
           <a
-            href={`https://wa.me/905069401210?text=${encodeURIComponent(`[hidrolikyag.com] URUN FIYAT VE STOK TALEBI\n\nUrun: ${product.name}\nViskozite: ${product.viscosity}\nAmbalaj: ${product.packageSize} ${product.packageType}\n\nMerhaba, bu urun icin guncel fiyat teklifi ve stok durumunu ogrenmek istiyorum.`)}`}
+            href={`https://wa.me/905069401210?text=${encodeURIComponent(`[kizakyagi.com] URUN FIYAT VE STOK TALEBI\n\nUrun: ${product.name}\nViskozite: ${product.viscosity}\nAmbalaj: ${product.packageSize} ${product.packageType}\n\nMerhaba, bu urun icin guncel fiyat teklifi ve stok durumunu ogrenmek istiyorum.`)}`}
             target="_blank"
             rel="noopener noreferrer"
             class="cta-btn-wa"
