@@ -12,8 +12,14 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
-# AI Crawlers & Answer Engines
+User-agent: Yandex
+Allow: /
+
+# AI Crawlers & LLM Answer Engines (GEO Optimization)
 User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
 Allow: /
 
 User-agent: ChatGPT-User
@@ -28,10 +34,16 @@ Allow: /
 User-agent: anthropic-ai
 Allow: /
 
+User-agent: Google-Extended
+Allow: /
+
 User-agent: Applebot
 Allow: /
 
-# Sitemaps
-Sitemap: https://kizakyagi.com/sitemap.xml
+User-agent: Applebot-Extended
+Allow: /
+
+# Sitemaps & LLMs Context
 Sitemap: https://kizakyagi.com/sitemap-index.xml
 Sitemap: https://kizakyagi.com/sitemap-0.xml
+Sitemap: https://kizakyagi.com/sitemap.xml

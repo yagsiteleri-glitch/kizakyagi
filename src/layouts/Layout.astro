@@ -40,6 +40,8 @@ const resolvedOgImage = rawOgImage.startsWith('http') ? rawOgImage : new URL(raw
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonicalUrl} />
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap-index.xml" />
+    <link rel="alternate" type="text/plain" title="LLMs.txt" href="/llms.txt" />
     <meta name="google-site-verification" content="acAPA7UsuXX3tb6S_JKJaJF3oKfUk5RKEYVK9l_AA54" />
         <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
     <meta name="googlebot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
